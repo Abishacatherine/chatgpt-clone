@@ -4,7 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 import openai
 
 # Set your API key here
-openai.api_key = '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'
+openai.api_key = 'Your API key'
 
 @csrf_exempt
 def chat(request):
